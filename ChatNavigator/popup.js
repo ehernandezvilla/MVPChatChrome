@@ -141,6 +141,7 @@ function clearChat() {
 
 // Agregar botón para limpiar el chat
 const clearButton = document.createElement('button');
+clearButton.id = 'cleanChat';
 clearButton.textContent = 'Limpiar Chat';
 clearButton.style.marginTop = '10px';
 clearButton.addEventListener('click', clearChat);
