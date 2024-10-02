@@ -1,0 +1,5 @@
+.env
+/venv
+/node_modules
+/ChatNavigator/node_modules
+/ChatNavigator/.env
